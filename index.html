@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider Using Dom</title>
+
+    <style>
+      img {
+        width: 300px;
+        height: 300px;
+      }
+      .img{
+        text-align: center;
+        margin-bottom:10px;
+      }
+      .btn{
+        text-align: center;
+      }
+      .btn button{
+        background: green;
+        color: #fff;
+        border: none;
+        padding: 10px 30px;
+        border-radius: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img"><img src="./img/1.jpg" alt="" /></div>
+    <div class="btn">
+      <button onclick="pre()">Previous</button>
+      <button onclick="next()">Next</button>
+    </div>
+
+    <script src="./slider.js"></script>
+  </body>
+</html>
